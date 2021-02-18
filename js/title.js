@@ -1,17 +1,15 @@
 // 浏览器搞笑标题
-var OriginTitle = document.title;
-var titleTime;
-document.addEventListener('visibilitychange', function () {
+ var OriginTitile = document.title;
+ var titleTime;
+ document.addEventListener('visibilitychange', function() {
     if (document.hidden) {
-        document.querySelector('[rel="icon"]').setAttribute('href', "/img/funny.ico");
-        document.title = '(っ °Д °;)っ 访问的页面不存在了';
+        document.title = '看不见我看不见我~~';
         clearTimeout(titleTime);
     }
     else {
-        document.querySelector('[rel="icon"]').setAttribute('href', "/img/favicon.ico");
-        document.title = '(●\'◡\'●)噫又好啦 ~' + OriginTitle;
-        titleTime = setTimeout(function () {
-            document.title = OriginTitle;
-        }, 2000);
+        document.title = OriginTitile;
+        titleTime = setTimeout(function() {
+            document.title = OriginTitile;
+        }, 500);
     }
-});
+ });
