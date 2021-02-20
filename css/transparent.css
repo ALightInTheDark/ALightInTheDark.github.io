@@ -1,5 +1,16 @@
-/* 文章页背景 */
-.layout_post>#post {
-    /* 以下代表透明度为0.5 可以自行修改*/
-    background: rgba(255,255,255,.5);
+div#post{
+    background: rgba(255, 255, 255, 0.33);
 }
+div#page{
+    background: rgba(255, 255, 255, 0.33);
+}
+div#archive{
+    background: rgba(255, 255, 255, 0.33);
+}
+div#tag{
+    background: rgba(255, 255, 255, 0.33);
+}
+div#category{
+    background: rgba(255, 255, 255, 0.33);
+}
+

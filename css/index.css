@@ -1293,7 +1293,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 20px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1670,7 +1670,7 @@ blockquote footer cite:before {
 }
 #article-container pre,
 #article-container code {
-  font-size: 14px;
+  font-size: 20px;
   font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
 #article-container code {
@@ -1701,7 +1701,7 @@ blockquote footer cite:before {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 0.3rem 0 0.1rem 0.7rem;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1733,7 +1733,7 @@ blockquote footer cite:before {
   height: 2.15em;
   background: #e6ebf1;
   color: #90a4ae;
-  font-size: 14px;
+  font-size: 20px;
 }
 #article-container .highlight-tools.closed + table {
   display: none;
@@ -3074,120 +3074,38 @@ blockquote footer cite:before {
     transform: scale(0.7);
   }
 }
-#calendar a {
-  text-decoration: none;
+.cbp_tmlabel:after {
+  border-right-color: transparent !important;
 }
-.cal-head {
-  margin-bottom: 15px;
-  position: relative;
-  height: 20px;
-  padding: 8px 6px 2px 6px;
+#artitalk_main .cbp_tmtimeline > li .cbp_tmlabel {
+  display: inline-block !important;
+  margin: 0 0 30px 0px !important;
 }
-.cal-prev,
-.cal-next {
-  position: absolute;
-  top: 9px;
-  width: 16px;
-  height: 18px;
-  padding: 3px 4px;
-  border: 1px solid transparent;
-  color: #333;
-  outline: 0;
+#artitalk_main .cbp_tmtimeline > li .cbp_tmlabel:after {
+  border-right-color: transparent !important;
 }
-.cal-prev {
-  left: 8px;
+.artitalk_avatar {
+  width: 40px;
+  height: 40px;
 }
-.cal-prev:before {
-  border-right: 9px solid #333;
+span.shuoshuo_author_img {
+  display: none;
 }
-.cal-next {
-  right: 8px;
+.power {
+  display: none;
+  padding: 10px !important;
+  text-align: left !important;
 }
-.cal-next:before {
-  border-left: 9px solid #333;
+#switchUser,
+#pubShuo,
+#pubComment,
+#uploadSource {
+  padding-right: 10px !important;
 }
-.cal-prev:before,
-.cal-next:before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-}
-.cal-title {
-  width: 120px;
-  margin: 0 auto;
-  color: #333;
-  font: bold 14px/18px Arial;
-  text-align: center;
-}
-.cal-title a {
-  border: 1px solid transparent;
-  color: #9f9f9f;
-}
-.cal,
-.cal th,
-.cal td {
-  border: 1px solid #d1d1d1;
-}
-.cal {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 0;
-  border-width: 1px 0 0 1px;
-  table-layout: fixed;
-  width: 100%;
-  margin: 0;
-}
-.cal th {
-  background: #9f9f9f;
-  color: #fff;
-  border-width: 0 1px 1px 0;
-  font-weight: 700;
-}
-.cal td {
-  border-width: 0 1px 1px 0;
-}
-.cal tbody a {
-  background-color: #007acc;
-  color: #fff;
-  display: block;
-  font-weight: 700;
-}
-.cal tbody .cal-today {
-  background-color: #66ecfd;
-  color: #fff;
-}
-.cal .cal-gray {
-  color: #bbb8b8;
-}
-[data-theme='dark'] .cal .cal-gray {
-  color: #505050;
-}
-.cal th,
-.cal td {
-  font-weight: normal;
-  line-height: 2.5625;
-  padding: 0;
-  text-align: center;
-}
-[data-theme='dark'] .cal .cal-foot {
-  color: #9f9f9f;
-}
-.cal .cal-foot {
-  color: #2ca6cb;
-}
-.cal-title a:hover,
-.cal-prev:hover,
-.cal-next:hover,
-.cal .cal-foot:hover,
-.cal .cal-foot:focus,
-.cal tbody a:hover,
-.cal tbody a:focus {
-  background-color: #686868;
-  color: #fff;
-  cursor: pointer;
+#uploadSource .icon {
+  width: 1.2em !important;
+  height: 1.2em !important;
+  vertical-align: 0 !important;
 }
 #post-comment .comment-head {
   margin-bottom: 1rem;
