@@ -1,5 +1,6 @@
+/*文章背景*/
 div#post{
-    background: rgba(255, 255, 255, 0.33);
+    background: rgba(255, 255, 255, 0.8);
 }
 div#page{
     background: rgba(255, 255, 255, 0.33);
@@ -13,4 +14,3 @@ div#tag{
 div#category{
     background: rgba(255, 255, 255, 0.33);
 }
-
