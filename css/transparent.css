@@ -2,6 +2,7 @@
 div#post{
     background: rgba(255, 255, 255, 0.8);
 }
+/*id为page的div元素，不能作用于其他元素*/
 div#page{
     background: rgba(255, 255, 255, 0.33);
 }
@@ -13,4 +14,37 @@ div#tag{
 }
 div#category{
     background: rgba(255, 255, 255, 0.33);
+}
+
+
+
+#footer {
+    background: transparent !important;
+}
+#footer-wrap div {
+    color: #FF1493;
+    font-weight: bolder;
+}
+#footer-wrap a {
+    color: #BA55D3;
+}
+
+/* id 选择器,导航菜单颜色*/
+/* 作用于id为menus的元素后面的后代a元素 */
+#menus span {
+    color: #BA55D3;
+    font-weight: bolder;
+}
+/*
+.site-page span{
+    color: #FF1493;
+}
+*/
+
+#site-title {
+    display: none!important;
+}
+
+#blog_name a {
+    display: none!important;
 }

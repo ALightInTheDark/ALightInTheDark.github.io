@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>暗夜微光</title>
+  <title>微光的博客</title>
   <icon>https://alightinthedark.github.io/icon.png</icon>
   
   <link href="https://alightinthedark.github.io/atom.xml" rel="self"/>
